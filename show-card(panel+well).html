@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap 实例</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body class="container">
+
+<p>
+	在Bootstrap 4中 .panel 和 .well已经被 .card替换了。 
+	这是有很大意义的，因为在responsive design(响应式设计)中，cards是一种更为流行的趋势。
+</p>
+
+<h2>卡片</h2>
+<div class="card">
+  <div class="card-header">头部</div>
+  <div class="card-body">内容</div> 
+  <div class="card-footer">底部</div>
+</div>
+
+
+<h2>模拟bootstrap 3 的 panel</h2>
+<div class="card">
+	<div class="card-header bg-primary text-white border border-light">头部</div>
+	<div class="card-body">内容</div> 
+</div>
+<div class="card mt-2">
+	<div class="card-header bg-info text-white">头部</div>
+	<div class="card-body">内容</div> 
+</div>
+<div class="card mt-2">
+	<div class="card-header bg-success text-white">头部</div>
+	<div class="card-body">内容</div> 
+</div>
+<div class="card mt-2">
+	<div class="card-header bg-warning text-white">头部</div>
+	<div class="card-body">内容</div> 
+</div>
+<div class="card mt-2">
+	<div class="card-header bg-danger text-white">头部</div>
+	<div class="card-body">内容</div> 
+</div>
+				
+
+
+<h2>模拟bootstrap 3 的 well</h2>
+<div class="card">
+	<div class="card-body bg-light">内容</div> 
+</div>
+
+
+
+<h2>标题、文本和链接</h2>
+<div class="card">
+  <div class="card-body">
+	<h4 class="card-title">Card title</h4>
+	<p class="card-text">Some example text. Some example text.</p>
+	<a href="#" class="card-link">Card link</a>
+	<a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+
+<h2>图片卡片</h2>
+<p>图片在头部 (card-img-top):</p>
+<div class="card" style="width:400px">
+	<img class="card-img-top" src="https://static.runoob.com/images/mix/img_avatar.png" alt="Card image" style="width:100%">
+	<div class="card-body">
+	<h4 class="card-title">John Doe</h4>
+	<p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+	<a href="#" class="btn btn-primary">See Profile</a>
+	</div>
+</div>
+
+<h2>图片作为卡片背景</h2>
+<p>如果图片要设置为背景，可以使用 .card-img-overlay 类:</p>
+<div class="card img-fluid" style="width:500px">
+  <img class="card-img-top" src="https://static.runoob.com/images/mix/img_avatar.png" alt="Card image" style="width:100%">
+  <div class="card-img-overlay">
+	<h4 class="card-title">John Doe</h4>
+	<p class="card-text">Some example text some example text. Some example text some example text. Some example text some example text. Some example text some example text.</p>
+	<a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+
+</body>
+</html>

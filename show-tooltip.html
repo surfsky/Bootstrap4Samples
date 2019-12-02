@@ -1,0 +1,47 @@
+<html>
+<head>
+  <title>Bootstrap 实例</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+
+    <div class="container">
+        <h1>Tooltip</h1>
+        <a href="#" data-toggle="tooltip" data-placement="top" title="我是提示内容!">鼠标移动到我这</a>
+        <a href="#" data-toggle="tooltip" data-placement="bottom" title="我是提示内容!">鼠标移动到我这</a>
+        <a href="#" data-toggle="tooltip" data-placement="left" title="我是提示内容!">鼠标移动到我这</a>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="我是提示内容!">鼠标移动到我这</a>
+      </div>
+    
+      <div class="container">
+          <h3>Popover</h3> 
+          <a href="#" title="Header" data-toggle="popover" data-placement="top" data-content="Content" >点我</a>
+          <a href="#" title="Header" data-toggle="popover" data-placement="bottom" data-content="Content">点我</a>
+          <a href="#" title="Header" data-toggle="popover" data-placement="left" data-content="Content">点我</a>
+          <a href="#" title="Header" data-toggle="popover" data-placement="right" data-content="Content">点我</a>
+
+          <a href="#" title="取消弹出框" data-toggle="popover" data-trigger="focus" data-content="点击文档的其他地方关闭我">点我（chrome有效，safari无效）</a>
+          <a href="#" title="Header" data-toggle="popover" data-trigger="hover" data-content="一些内容">鼠标移动到我这</a>
+        </div>
+        
+        <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();   
+        });
+
+        $(document).ready(function(){
+            $('[data-toggle="popover"]').popover();   
+        });
+    
+      </script>
+    
+
+</body>
+</html>

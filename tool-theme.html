@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap 示例</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <style>
+    .code{
+      display: block;
+      padding: 8px;
+      background: rgb(241, 241, 241);
+      border: gray;
+      border-radius: 4px;
+    }
+  
+  </style>
+</head>
+<body class="container">
+
+<h2>todo</h2>
+<li>下载源码: https://getbootstrap.com</li>
+<li>修改 scss/_varialbes.scss 文件</li>
+<li>编译
+  <div class="code">
+  npm install<br>
+  npm run dist
+  </div>
+</li>
+
+<h2>辅助工具</h2>
+<li>样式设计工具（免费）：http://pikock.github.io/bootstrap-magic/app/index.html#!/editor</li>
+<li>页面设计工具（免费）：https://www.layoutit.com/build</li>
+<li>网站设计+托管：https://webflow.com/design/</li>
+<li>商业页面设计（收费）：https://bootstrapstudio.io/</li>
+
+
+<h2>text-*</h2>
+<p class="text-muted">柔和的文本。</p>
+<p class="text-primary">重要的文本。</p>
+<p class="text-success">执行成功的文本。</p>
+<p class="text-info">代表一些提示信息的文本。</p>
+<p class="text-warning">警告文本。</p>
+<p class="text-danger">危险操作文本。</p>
+<p class="text-secondary">副标题。</p>
+<p class="text-dark">深灰色文字。</p>
+<p class="text-light">浅灰色文本（白色背景上看不清楚）。</p>
+<p class="text-white">白色文本（白色背景上看不清楚）。</p>
+
+
+<h2>bg-* text-*</h2>
+<p class="bg-primary    text-white">重要的背景颜色。</p>
+<p class="bg-success    text-white">执行成功背景颜色。</p>
+<p class="bg-info       text-white">信息提示背景颜色。</p>
+<p class="bg-warning    text-white">警告背景颜色</p>
+<p class="bg-danger     text-white">危险背景颜色。</p>
+<p class="bg-secondary  text-white">副标题背景颜色。</p>
+<p class="bg-dark       text-white">深灰背景颜色。</p>
+<p class="bg-light      text-dark">浅灰背景颜色。</p>
+
+
+
+<h2>border-*</h2>
+<p class="border border-primary   bg-light text-white">重要的背景颜色。</p>
+<p class="border border-success   bg-light text-white">执行成功背景颜色。</p>
+<p class="border border-info      bg-light text-white">信息提示背景颜色。</p>
+<p class="border border-warning   bg-light text-white">警告背景颜色</p>
+<p class="border border-danger    bg-light text-white">危险背景颜色。</p>
+<p class="border border-secondary bg-light text-white">副标题背景颜色。</p>
+<p class="border border-dark      bg-light text-white">深灰背景颜色。</p>
+<p class="border border-light     bg-light text-dark">浅灰背景颜色。</p>
+
+
+<h2>btn-*</h2>
+<button type="button" class="btn">基本按钮</button>
+<button type="button" class="btn btn-primary">主要按钮</button>
+<button type="button" class="btn btn-secondary">次要按钮</button>
+<button type="button" class="btn btn-success">成功</button>
+<button type="button" class="btn btn-info">信息</button>
+<button type="button" class="btn btn-warning">警告</button>
+<button type="button" class="btn btn-danger">危险</button>
+<button type="button" class="btn btn-dark">黑色</button>
+<button type="button" class="btn btn-light">浅色</button>
+<button type="button" class="btn btn-link">链接</button>      
+<br/>
+<br/>
+<button type="button" class="btn btn-outline">基本按钮</button>
+<button type="button" class="btn btn-outline-primary">主要按钮</button>
+<button type="button" class="btn btn-outline-secondary">次要按钮</button>
+<button type="button" class="btn btn-outline-success">成功</button>
+<button type="button" class="btn btn-outline-info">信息</button>
+<button type="button" class="btn btn-outline-warning">警告</button>
+<button type="button" class="btn btn-outline-danger">危险</button>
+<button type="button" class="btn btn-outline-dark">黑色</button>
+<button type="button" class="btn btn-outline-light text-dark">浅色</button>
+
+
+
+<h2>badge-*</h2>
+<span class="badge badge-primary">主要</span>
+<span class="badge badge-secondary">次要</span>
+<span class="badge badge-success">成功</span>
+<span class="badge badge-danger">危险</span>
+<span class="badge badge-warning">警告</span>
+<span class="badge badge-info">信息</span>
+<span class="badge badge-light">浅色</span>
+<span class="badge badge-dark">深色</span>
+
+
+<p>ps. 填充色应该统一的，区分为文本、色块、按钮、徽标的缺太累赘</p>
+
+</body>
+</html>
