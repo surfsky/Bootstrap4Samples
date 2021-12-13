@@ -11,11 +11,22 @@
 </head>
 <body>
 
-    <div class="container">
-        <p>.img-fluid 类可以设置响应式图片，重置浏览器大小查看效果（没效果）</p>
-        <img src="https://static.runoob.com/images/mix/paris.jpg" class="img-responsive"">
+<h1>自动拉伸</h1>
+<div class="container-fluid">
+  <div class="row">
+    <img src="https://static.runoob.com/images/mix/paris.jpg" class="img-responsive center-block"  width="100%">
+  </div>
+</div>
 
-      <p>.rounded 类可以让图片显示圆角效果：</p>            
+<h1>大小图片切换（没成功）</h1>
+<div class="container">
+  <img src="img/box.png" alt="" class="visible-xs img-responsive">
+  <img src="https://static.runoob.com/images/mix/paris.jpg" alt="" class="hidden-xs img-responsive">
+</div>
+
+
+    <div class="container">
+        <p>.rounded 类可以让图片显示圆角效果：</p>            
         <img src="https://static.runoob.com/images/mix/cinqueterre.jpg" class="rounded" alt="Cinque Terre" width="304" height="236"> 
 
         <p>.rounded-circle 类可以让图片显示椭圆效果：</p>            
